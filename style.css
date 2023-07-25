@@ -29,7 +29,9 @@ body{
 
 .Flex2{
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    padding: 10px 10px 10px 10px;
+    margin-top: 25px;
 }
 
 .Botao{
@@ -97,6 +99,7 @@ main{
     height: 75vh;
     background:  url(img/banner.jpg);
     background-size: cover;
+    background-position: center;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -118,6 +121,7 @@ main h2{
     padding: 50px 0px;
     background: url(img/background.png);
     background-size: cover;
+    background-position: center;
 }
 
 #destaqueSobre{
@@ -228,4 +232,17 @@ main h2{
         color: #c00000;
     }
 
+    /* Sobre */
+
+    #sobre{
+        background-attachment: fixed;
+    }
+    
+    #destaqueSobre{
+        display: inline;
+    }
+    #destaqueSobre img{
+        border-radius: 50%;
+        margin-right: 50px;
+    }
 }
